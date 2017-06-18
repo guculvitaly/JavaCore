@@ -5,6 +5,6 @@ package com.hillel.gucul.vitaly.hello_world;
  */
 public class Hello_World {
     public static void main(String[] args) {
-        System.out.println("Hello");
+        System.out.println("Helloqq");
     }
 }
