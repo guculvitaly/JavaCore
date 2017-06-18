@@ -1,0 +1,9 @@
+.idea
+target
+sonic.iml
+Будет удалено .gitignore
+Будет удалено pom.xml
+Будет удалено src/main/java/com/hillel/gucul/vitaly/second/
+Будет удалено src/main/resources/
+Будет пропущен репозиторий src/test/java/com/hillel/gucul/vitaly
+Будет удалено src/test/resources
