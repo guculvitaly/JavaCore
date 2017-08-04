@@ -1,6 +1,6 @@
 
 
-package org.profit.zeus.reports;
+package com.hillel.gucul.vitaly.reports;
 
 import static net.sf.dynamicreports.report.builder.DynamicReports.*;
 

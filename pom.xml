@@ -21,6 +21,29 @@
             <version>${junit.jupiter.version}</version>
         </dependency>
         <dependency>
+            <groupId>net.sourceforge.dynamicreports</groupId>
+            <artifactId>dynamicreports-core</artifactId>
+            <version>5.0.0</version>
+        </dependency>
+
+        <dependency>
+            <groupId>net.sourceforge.dynamicreports</groupId>
+            <artifactId>dynamicreports-adhoc</artifactId>
+            <version>5.0.0</version>
+        </dependency>
+
+        <dependency>
+            <groupId>net.sourceforge.dynamicreports</groupId>
+            <artifactId>dynamicreports-googlecharts</artifactId>
+            <version>5.0.0</version>
+        </dependency>
+
+        <dependency>
+            <groupId>net.sf.jasperreports</groupId>
+            <artifactId>jasperreports</artifactId>
+            <version>6.3.1</version>
+        </dependency>
+        <dependency>
             <groupId>org.junit.platform</groupId>
             <artifactId>junit-platform-runner</artifactId>
             <version>${junit.platform.version}</version>

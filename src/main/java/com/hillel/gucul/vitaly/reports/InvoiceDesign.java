@@ -1,6 +1,6 @@
 
 
-package org.profit.zeus.reports;
+package com.hillel.gucul.vitaly.reports;
 
 import static net.sf.dynamicreports.report.builder.DynamicReports.*;
 
@@ -19,9 +19,9 @@ import net.sf.dynamicreports.report.exception.DRException;
 
 public class InvoiceDesign {
 
-	private InvoiceData data = new InvoiceData();
+	private InvoceData data = new InvoceData();
 
-	public InvoiceDesign(InvoiceData data) {
+	public InvoiceDesign(InvoceData data) {
 		this.data = data;
 	}
 
