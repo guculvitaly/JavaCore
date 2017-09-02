@@ -90,7 +90,7 @@
        <!-- <module name="AvoidStarImport"/>-->
 
         <!--
-        Description:    Checks that each top-level class, interface or enum resides in a source file of its own.
+        Description:    Checks that each top-level class, interfaceenumsenum resides in a source file of its own.
         Example:        Check Doc examples.
         Error messages: Top-level class {0} has to reside in its own source file.
         Doc ref:        http://checkstyle.sourceforge.net/config_design.html#OneTopLevelClass
@@ -699,7 +699,7 @@
                         - Final modifier on methods of final and anonymous classes.
                         - Inner interface declarations that are declared as static.
                         - Class constructors.
-                        - Nested enum definitions that are declared as static.
+                        - Nesenumsenum definitions that are declared as static.
         Doc ref:        http://checkstyle.sourceforge.net/config_modifier.html#RedundantModifier
         -->
         <module name="RedundantModifier"/>
