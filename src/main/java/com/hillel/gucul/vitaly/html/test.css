@@ -1,0 +1,31 @@
+h1{
+	color: red
+}
+
+.header{
+	
+	background-image: url("bg-img.jpg");
+	height: 80%;
+	width: 100%;
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover
+}
+
+.button{
+	position: absolute;
+	top: 50%;
+	right: 50%;
+	border: 2px solid white;
+	width: 150px;
+	text-align: center;
+	color: #fff;
+	background-color: blue;
+
+
+}
+
+.forma {
+	width: 450px;
+	height: 320px;
+}

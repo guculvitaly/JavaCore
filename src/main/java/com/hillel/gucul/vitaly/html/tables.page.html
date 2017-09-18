@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tables</title>
+</head>
+<style>
+    .total{
+        background-color: #67ff32;
+    }
+    .borders{
+        border: 5px solid cadetblue;
+    }
+    .render{
+        border: 24px solid #4bf0ff;
+        padding: 24px;
+        background-color: #580dff;
+    }
+</style>
+
+
+<body>
+
+<table border="1" class="borders">
+    <colgroup>
+        <col span="3">
+        <col class="total">
+    </colgroup>
+    <tr style="border: 1px solid black">
+        <th style="border: 2px solid orange"> Item </th>
+        <th> Qty </th>
+        <th> Price </th>
+        <th> Cost </th>
+    </tr>
+    <tr>
+        <td>Bananas</td>
+        <td>5</td>
+        <td>0.50</td>
+        <td>2.50</td>
+    </tr>
+
+    <tr>
+        <td>Apples</td>
+        <td>2</td>
+        <td>0.25</td>
+        <td>0.50</td>
+    </tr>
+
+    <tr>
+        <td>Oranges</td>
+        <td>3</td>
+        <td>0.75</td>
+        <td>2.25</td>
+    </tr>
+    <tr>
+        <td colspan="3">TOTAL</td>
+        <td>5.25</td>
+    </tr>
+</table>
+
+
+
+
+</body>
+</html>

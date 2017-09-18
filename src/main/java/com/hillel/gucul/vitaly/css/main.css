@@ -1,0 +1,79 @@
+.text {
+  color: palevioletred;
+  font-size: 22px;
+  font-family: cursive;
+  width: 191px;
+  height: 30px;
+  margin: 39px 0 0 203px;
+  cursor: pointer;
+  border: 5px dotted green; }
+
+.image {
+  background-image: url("bg2-img.jpg");
+  width: 100%;
+  height: 50%;
+  top: 0;
+  right: 0;
+  left: 0;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute; }
+
+.mybutton {
+  width: 200px;
+  height: 50px;
+  background-color: cornflowerblue;
+  outline: none;
+  cursor: pointer;
+  margin-top: 400px;
+  text-align: center; }
+  .mybutton:hover {
+    background-color: red;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s; }
+
+.wrapper {
+  border: 2px solid grey;
+  width: 500px;
+  height: 480px;
+  background-color: darkslategrey; }
+
+.title-text {
+  text-align: center;
+  color: white;
+  font-size: 25px; }
+
+input {
+  border-radius: 2px;
+  outline: none; }
+
+.lastname {
+  color: white;
+  outline: none; }
+
+.firstname {
+  color: white;
+  outline: none; }
+
+.company {
+  color: white; }
+
+.select {
+  width: 175px;
+  border-radius: 2px; }
+
+.buttonsub {
+  width: 200px;
+  height: 50px;
+  background-color: cornflowerblue;
+  outline: none;
+  cursor: pointer;
+  margin-top: 400px;
+  text-align: center; }
+  .buttonsub:hover {
+    background-color: red;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s; }
+
+/*# sourceMappingURL=main.css.map */
