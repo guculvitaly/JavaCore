@@ -62,7 +62,9 @@ public class Enum {
                 if ( stat.name.equalsIgnoreCase(name)){
                     System.out.println(stat.onWhatPlanet());
                 }
+
             }
+
         }
     }
 
