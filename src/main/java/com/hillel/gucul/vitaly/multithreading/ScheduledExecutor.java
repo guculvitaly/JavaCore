@@ -1,12 +1,13 @@
 package com.hillel.gucul.vitaly.multithreading;
 
 import java.util.concurrent.Executors;
+import java.util.concurrent.ScheduledExecutorService;
 import java.util.concurrent.TimeUnit;
 
 /**
  * Created by insomnia on 23.09.17.
  */
-public class ScheduledExecutorService {
+public class ScheduledExecutor {
     public static void main(String[] args) {
 
         ScheduledExecutorService executor =  Executors.newScheduledThreadPool(1);
@@ -19,7 +20,7 @@ public class ScheduledExecutorService {
                 System.err.println("task interrupted");
             }
         };
-        executor.scheduleWithFixedDelay(task, 0, 1, TimeUnit.SECONDS)
+        executor.scheduleWithFixedDelay(task, 0, 1, TimeUnit.SECONDS);
 
     }
 
